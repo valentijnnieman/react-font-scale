@@ -13,6 +13,10 @@ import {ScaleFont} from "react-font-scaler";
 <ScaleFont base={16} scale={1.5}>
     /* Text elements go here */
     <h1>Such as a H1 element!</h1>
+    <h2>Or this H2 element!</h2>
+    <div>
+        <p>It will also pick up nested text!</p>
+    </div>
 </ScaleFont>
 ```
 
