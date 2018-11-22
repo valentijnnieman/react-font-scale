@@ -1,8 +1,8 @@
 {
-  "name": "react-font-scale",
+  "name": "react-font-scaler",
   "version": "0.0.1",
   "description": "Component wrapper that scales all text font size to your wishes",
-  "main": "lib/index.js",
+  "main": "dist/react-font-scaler.js",
   "scripts": {
     "build:dev": "webpack --config webpack.config.js --mode=development --watch",
     "build": "webpack --config webpack.config.js --mode=production",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/valentijnnieman/react-font-scale"
+    "url": "github.com/valentijnnieman/react-font-scaler"
   },
   "keywords": [
     "react",

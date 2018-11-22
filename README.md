@@ -1,4 +1,4 @@
-# React Font Scale
+# React Font Scaler
 A component that scales your fonts based upon a base number and a scale you put in.
 
 ## How does it work?
@@ -6,9 +6,9 @@ The component `<ScaleFont>` is a wrapper component that traverses all of it's ch
 
 ## How do I use it?
 There's an example included in the `examples` folder, but it boils down to this:
-`npm i react-font-scale --save`
+`npm i react-font-scaler --save`
 ``` 
-import {ScaleFont} from "react-font-scale";
+import {ScaleFont} from "react-font-scaler";
 
 <ScaleFont base={16} scale={1.5}>
     /* Text elements go here */
