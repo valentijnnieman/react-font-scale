@@ -1,0 +1,14 @@
+.dot{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.dot--two {
+    left: 100px;
+    top: 200px;
+}

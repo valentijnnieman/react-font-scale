@@ -1,0 +1,46 @@
+{
+  "name": "react-font-scale",
+  "version": "0.0.1",
+  "description": "Component wrapper that scales all text font size to your wishes",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:dev": "webpack --config webpack.config.js --mode=development --watch",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "example": "webpack-dev-server --config webpack.example.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/valentijnnieman/react-font-scale"
+  },
+  "keywords": [
+    "react",
+    "draw",
+    "line",
+    "component",
+    "wrapper",
+    "svg"
+  ],
+  "author": "Valentijn Nieman",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "peerDependencies": {
+    "react": "~16.6.3",
+    "react-dom": "~16.6.3"
+  },
+  "dependencies": {}
+}
